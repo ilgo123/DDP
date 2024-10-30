@@ -12,10 +12,10 @@ numbers = [
 
 i = 0
 while i < len(numbers):
-    if numbers[i] == 553:
-        break
     if numbers[i] % 2 != 0:
         print(numbers[i])
+    if numbers[i] == 553:
+        break
     i += 1
 
 # SOAL SLIDE 2
